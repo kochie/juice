@@ -1,0 +1,42 @@
+{
+  "name": "juice",
+  "version": "1.0.0",
+  "description": "A JWT playground where you can edit and save tokens.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel ./src/index.html",
+    "electron": "electron ./dist/index.js",
+    "lint": "prettier --write ./src/**/*.{ts,tsx,scss}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kochie/juice.git"
+  },
+  "keywords": [
+    "JWT",
+    "electron",
+    "playground",
+    "react"
+  ],
+  "author": "robert@kochie.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kochie/juice/issues"
+  },
+  "homepage": "https://github.com/kochie/juice#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "electron": "^2.0.8",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2",
+    "typescript": "^3.0.3"
+  }
+}
